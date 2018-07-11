@@ -2,8 +2,8 @@
 
 void uncaughtExceptionHandler(NSException *exception)
 {
-   //アプリクラッシュ時のログ出力
     NSLog(@"%@", exception);
+//アプリクラッシュ時のログ出力
 }
 
 
